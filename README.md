@@ -23,6 +23,15 @@ Along selected streamlines, determine the long-term mean variation of Tmax, Smax
 
 The Weddell Gyre is a key region for returning deep water to the surface in its upwelling centre, and for the formation and transit route of Antarctic Bottom Water, thus playing a role in the closure of the southern limb of the overturning circulation, ventilating the deep ocean, and regulating the carbon budget. The main source of heat to the Weddell Gyre, however, is poorly understood, including whether Upper or Lower Circumpolar Deep Water make up the main source water mass. A lack of observations limit our understanding of the circulation pathways that advect the source waters into the gyre. Understanding the origins of Warm Deep Water is essential to understanding the impact of a changing climate system. In this study, we attempt to find clarity on these issues using a gridded annual mean product from WOA23 and ungridded Argo float data, in order to tease out what the key sources are that feed the Warm Deep Water, and how and where this process occurs. 
 
+## MATLAB Codes:
+Main code is OriginsOfWDW_dataanalysis.mlx
+requires m_mapping toolbox (Pawlowicz, R., 2020. "M_Map: A mapping package for MATLAB", version 1.4m, [Computer software], available online at www.eoas.ubc.ca/~rich/map.html.)
+Gibbs-Seawater Oceanographic Toolbox (https://www.teos-10.org/software.htm), neutral density algorithm (https://www.teos-10.org/preteos10_software/neutral_density.html), and the m_map toolbox (www.eoas.ubc.ca/~rich/map.html)
+Functions are: 
+OriginsOfWDW_mapFig.mlx: plots maps of variables on Tmax, Smax and dO2min surfaces
+plot_phase_streamline.mlx: plots colorful streamline on map with contour split into 10 fractions
+find_Smax.mlx: finds the shallowest Smax taking into account small vertical gradients and large errors.
+
 ## Data
 
 Gridded: WOA23 annual mean 2015-2022: 1/4° resolution for temperature and salinity, and 1° resolution grid for dissolved oxygen concentration.
