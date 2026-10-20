@@ -1,0 +1,50 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: WeddellGyre-WDW-Origins
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Krissy
+    family-names: Reeve
+    name-particle: A
+    email: krissy.anne.reeve@gmail.com
+    affiliation: >-
+      Alfred Wegener Institute Helmholtz Centre for Polar
+      and Marine Research
+    orcid: 'https://orcid.org/0000-0001-5615-8040'
+  - orcid: 'https://orcid.org/0000-0002-8218-977X'
+    affiliation: >-
+      Alfred-Wegener-Institut Helmholtz-Zentrum für Polar-
+      und Meeresforschung
+    given-names: F
+    name-particle: Alexander
+    family-names: Haumann
+    email: alexander.haumann@awi.de
+  - given-names: Cathrine
+    family-names: Hancock
+    email: chancock@fsu.edu
+    affiliation: >-
+      Department of Earth, Ocean and Atmospheric Science,
+      Florida State University, Tallahassee, USA.
+    orcid: 'https://orcid.org/0000-0002-9793-092X'
+abstract: >-
+  This MATLAB package aims to determine what is Warm Deep
+  Water, how does it enter the Weddell gyre, and how the
+  main advective pathways result in its modification and
+  formation. To do this, we define UCDW as Tmax and dO2min,
+  and LCDW as Smax and map the results, using gridded mean
+  fields from WOA, and also ungridded Argo floats. Along
+  selected streamlines downloaded from
+  https://doi.pangaea.de/10.1594/PANGAEA.960571, we
+  determine the long-term mean variation of Tmax, Smax and
+  dO2min throughout the gyre. This work is presented in
+  Reeve et al. (2026) submitted to Geophysical Research
+  Letters and generates the complete data analyses and
+  figures for the manuscript. 
+license: MIT
+version: 1.0.0
+date-released: '2026-10-20'
